@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios HTML</title>
+</head>
+<body>
+
+    <!-- div: Contenedor o caja -->
+    <!-- ctrl + k + c: colocar comentarios -->
+    <div>
+        <h1><u>Titulo principal</u></h1>
+        <!-- parrafo -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Deserunt mollitia eius quas esse officia sunt ratione 
+            sapiente, iste dolorem sed beatae repudiandae a velit 
+            odio magni quis quo harum fugit!</p>
+
+            <!-- Texto en negrita, cursivas y subrayados -->
+             <p>Lorem, ipsum dolor sit amet <strong>consectetur</strong> adipisicing 
+                elit. <em>Dolores dicta quo</em> assumenda fugit officiis mollitia 
+                reprehenderit libero! Praesentium facilis <u>libero eveniet</u> 
+                autem eaque fugit quidem natus vel, expedita aperiam alias.</p>
+
+
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            <br>
+            Ex repellat possimus facilis corporis, qui dolorum quos, ipsa accusamus 
+            sit magnam culpa vitae adipisci corrupti, minus facere distinctio fugiat 
+            numquam dolorem.
+        </p>
+        
+        <img src="./image/universe.jpg" alt="pink Universe">
+
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UV83lM3UYTw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+        </iframe>
+        <br>
+        <a href="http://apple.com/" target="_blank">Sitio de apple: abrir en una pestaña nueva</a><br>
+        <a href="http://apple.com/" target="_self">Sitio de apple: abrir en la misma pestaña</a>
+
+        <br>
+
+        <!-- listas -->
+
+        <!-- listas ordenadas -->
+        <ol>
+            <li>Elena</li>
+            <li>Daniela</li>
+            <li>Michelle</li>
+            <li>Felix</li>
+            <li>Hyunjin</li>
+        </ol>
+
+         <!-- lista desordenada -->
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVA</li>
+            <li>PHP</li>
+          </ul>
+
+          <!-- lista de definiciones -->
+           <dl>
+            <dt>HTML</dt>
+            <dd>Es un lenguaje de marcado, no es lenguaje de programación</dd>
+            <dt>CSS</dt>
+            <dd>Lenguaje de estilos utilizado en todos los sitios web.</dd>
+           </dl>
+
+        <!-- Tablas -->
+         <table border="2">
+            <caption>Estructura de una tabla en html</caption>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+            </tr>
+            <tr>
+                <td>html</td>
+                <td>css</td>
+                <td>java</td>
+                <td>php</td>
+            </tr>
+         </table>
+
+         <!-- Ejercicio de tablas -->
+         <h3>Canciones por Álbum de Stray Kids</h3>
+
+         <table border="1" cellpadding="10">
+             <thead>
+                 <tr>
+                     <th>Álbum</th>
+                     <th>Lista de Canciones</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                     <td>GO生 (GO LIVE)</td>
+                     <td>
+                         <ol>
+                             <li>God's Menu</li>
+                             <li>Easy</li>
+                             <li>Blueprint</li>
+                             <li>Haven</li>
+                         </ol>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>IN生 (IN LIFE)</td>
+                     <td>
+                         <ul>
+                             <li>Back Door</li>
+                             <li>Any</li>
+                             <li>Ex</li>
+                             <li>Phobia</li>
+                         </ul>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>NOEASY</td>
+                     <td>
+                         <dl>
+                             <dt>Thunderous</dt>
+                             <dd>Canción destacada por su energía</dd>
+                             <dt>DOMINO</dt>
+                             <dd>Composición rítmica fuerte</dd>
+                             <dt>CHEESE</dt>
+                             <dd>Un sonido más experimental</dd>
+                             <dt>Secret Secret</dt>
+                             <dd>Una balada emotiva</dd>
+                         </dl>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>MAXIDENT</td>
+                     <td>
+                         <ul>
+                             <li>Case 143</li>
+                             <li>Give Me Your TMI</li>
+                             <li>Super Board</li>
+                             <li>Chill</li>
+                         </ul>
+                     </td>
+                 </tr>
+             </tbody>
+         </table>
+    </div>
+
+    <div>
+        <form>
+            <label for="">Nombre</label>
+            <input type="text">
+            <br>
+            <label for="">Apellido</label>
+            <input type="text">
+            <br>
+            <label for="">Contraseña</label>
+            <input type="password">
+            <br>
+            <label for="">Telefono</label>
+            <input type="number">
+            <br>
+            <label for="">Edad</label>
+            <input type="number">
+            <br>
+            <label for="">Fecha</label>
+            <input type="date">
+            <label for="">Hora</label>
+            <input type="time">
+            <br>
+            <label for="">Seleccionar una opción:</label>
+            <select name="" id="">
+                <option value="">CSS</option>
+                <option value="">JAVA</option>
+                <option value="">HTML</option>
+            </select>
+        </form>
+    </div>
+
+</body>
+</html>
