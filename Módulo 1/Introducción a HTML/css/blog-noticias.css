@@ -1,0 +1,65 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+header nav {
+    background-color: rgb(187, 230, 255);
+    color: rgb(73, 25, 99);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: rgb(174, 0, 255) 5px double;
+}
+header {
+    background-color: rgb(187, 230, 255);
+    color: rgb(73, 25, 99);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0.5px;
+}
+
+.Key-points{
+    font-style: normal;
+    font-size: 12px;
+    border: rgb(174, 0, 255) 5px dotted;
+    width: 500px;
+    margin-left: 15px;
+}
+
+.Key-points h3{
+    font-size: 20px;
+    line-height: 0.5;
+}
+
+hr {
+   margin-top: -10px;
+}
+
+header nav {
+    padding-bottom: 4px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.descripcion {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer {
+        background-color: rgb(187, 230, 255);
+        color: rgb(73, 25, 99);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        border: rgb(174, 0, 255) 5px dashed;
+}

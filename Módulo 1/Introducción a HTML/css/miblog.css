@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: white;
+    color: rgb(99, 25, 53);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.descripcion {
+    background-color: aquamarine;
+}
+
+section header h2 {
+    margin: 0;
+    font-size: 15px;
+}
+
+footer {
+    background-color: rgb(214, 116, 160);
+    color: rgb(99, 25, 53);
+}
+
+footer a:hover {
+    text-decoration: line-through;
+}
+
+aside {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.titulo {
+    margin-top: 20px;
+}
